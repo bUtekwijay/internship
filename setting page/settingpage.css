@@ -1,0 +1,164 @@
+.position-row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.position-col {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.card-title {
+  font-family: Archivo, sans-serif;
+  font-weight: 600;
+  size: 20px;
+  line-height: 22px;
+  color: #1a181b;
+}
+.sisi-kiri {
+  display: block;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  background: #f2f1f3;
+}
+
+.navbar {
+  width: 110%;
+  margin: 0 auto;
+}
+.logo {
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 3rem;
+  width: 77%;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.logo h1 {
+  margin-left: 1rem;
+  text-transform: uppercase;
+}
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.nav {
+  padding-top: 10px;
+  padding-left: 1rem;
+  border-radius: 7px;
+  padding-bottom: 10px;
+  margin-bottom: 24px;
+  background-color: #e5e6e4;
+}
+.nav a {
+  font-size: 16px;
+  vertical-align: middle;
+  color: black;
+}
+.nav-item {
+}
+.nav i {
+  width: 50px;
+  margin-right: 10px;
+  font-size: 18px;
+  text-align: center;
+  background-color: white;
+  border-radius: 9px;
+  padding: 4px 8px 4px 8px;
+  vertical-align: middle;
+}
+.main-body img {
+  margin-top: 20px;
+  margin-bottom: 35px;
+  background-color: rgb(79, 74, 80);
+  margin-left: 4px;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+.profile-photo {
+  display: inline-flex;
+}
+
+.upload-btn {
+  margin-left: -35px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.form-control {
+  margin-top: 10px;
+  margin-bottom: 17px;
+  border: 1px solid #000;
+  border-radius: 7px;
+  font-size: 17px;
+}
+
+.form-card {
+  background-color: #f2f1f3;
+  border: 1px solid #1a181b;
+  padding: 10px;
+  border-radius: 24px;
+  padding: 25px 20px 25px 20px;
+}
+
+form input {
+  height: 3rem;
+}
+
+form input.radio-inline {
+  height: 1rem !important;
+}
+
+label.radio-inline {
+  padding-right: 20px;
+}
+label {
+  padding-bottom: 5px;
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #4f4b53;
+}
+
+.button-text {
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #827c88;
+  cursor: pointer;
+}
+.button-text:hover {
+  color: orange;
+}
+.text-center {
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.toggle-password {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 11px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 6.5px 0px 6.5px 0px;
+}
